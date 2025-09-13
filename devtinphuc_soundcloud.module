@@ -1,0 +1,8 @@
+#!name=SoundCloudPlus-tindeptrai
+#!desc=SoundCloudPlus-tindeptrai
+# Instagram: https://www.instagram.com/ptins_dev?igsh=ZXpvdzN2cDdvMjM%3D&utm_source=qr  
+# 🚀 Released by: tindeptrai  
+[Script]
+SoundCloudGo+=type=http-response,pattern=https://api-mobile.soundcloud.com/configuration/ios,requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/soundcloud.js
+[MITM]
+hostname= %APPEND% api-mobile.soundcloud.com
